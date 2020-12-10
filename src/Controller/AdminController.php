@@ -12,7 +12,7 @@
          * @Route("/" , name="homepage")
          */
         public function  homepageAction(){
-            return new Response( "<h1>welkom</h1>");
-            // return $this->render('admin/homepage.html.twig');
+//            return new Response( "<h1>welkom</h1>");
+            return $this->render('admin/homepage.html.twig');
         }
     }
